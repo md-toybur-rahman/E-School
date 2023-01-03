@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* first Section */
+header{
+    height: 576px;
+    background-color: #F0FFF0;
+    padding: 30px 120px;
+}
+
+/* Navbar */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 198.07px;
+    height: 59px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li a h4{
+    margin-right: 35px;
+    color: black ;
+}
+button{
+    padding: 7px 20px;
+    border-radius: 20px;
+    background-color: #21B573;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
+/* End Navbar */
+
+header .Content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+header .Content .left h1{
+    font-size: 58px;
+    margin-bottom: 25px;
+}
+header .Content .left h1 span{
+    color: #21B573;
+}
+header .Content .left .desI{
+    color: #FD511A;
+    margin-bottom: 20px;
+}
+header .Content .left .desII{
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+header .Content img{
+    width: 554px;
+    height: 346px;
+}
+/* End First Section */
