@@ -45,28 +45,28 @@ button{
 }
 /* End Navbar */
 
-header .Content{
+header .HeaderContent{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 100px;
 }
-header .Content .left h1{
+header .HeaderContent .articleI h1{
     font-size: 58px;
     margin-bottom: 25px;
 }
-header .Content .left h1 span{
+header .HeaderContent .articleI h1 span{
     color: #21B573;
 }
-header .Content .left .desI{
+header .HeaderContent .articleI .desI{
     color: #FD511A;
     margin-bottom: 20px;
 }
-header .Content .left .desII{
+header .HeaderContent .articleI .desII{
     line-height: 30px;
     margin-bottom: 30px;
 }
-header .Content img{
+header .HeaderContent img{
     width: 554px;
     height: 346px;
 }
